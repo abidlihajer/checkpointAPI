@@ -28,13 +28,13 @@ function DetailsUser() {
         }}>
         <Card style={{ width: '18rem' }}>
       
-     <Card.Header>{user.name}</Card.Header>
+     <Card.Header>{user?.name}</Card.Header>
      
       <ListGroup variant="flush">
-        <ListGroup.Item>{user.username}</ListGroup.Item>
-        <ListGroup.Item>{user.phone}</ListGroup.Item>
-        <ListGroup.Item>{user.website}</ListGroup.Item>
-        <ListGroup.Item>{user.email}</ListGroup.Item>
+        <ListGroup.Item>{user?.username}</ListGroup.Item>
+        <ListGroup.Item>{user?.phone}</ListGroup.Item>
+        <ListGroup.Item>{user?.website}</ListGroup.Item>
+        <ListGroup.Item>{user?.email}</ListGroup.Item>
       </ListGroup>
     </Card>
       
